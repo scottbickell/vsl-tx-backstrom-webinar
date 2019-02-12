@@ -88,21 +88,10 @@ th.columns.last {
 th.columns table:not(.button) {
   width: 100%; }
 
-th.large-2 {
-  width: 84px;
-  padding-left: 8px;
-  padding-right: 8px; }
-
-th.large-2.first {
-  padding-left: 16px; }
-
 th.large-3 {
   width: 134px;
   padding-left: 8px;
   padding-right: 8px; }
-
-th.large-3.first {
-  padding-left: 16px; }
 
 th.large-3.last {
   padding-right: 16px; }
@@ -117,12 +106,6 @@ th.large-4 {
 
 th.large-4.first {
   padding-left: 16px; }
-
-th.large-4.last {
-  padding-right: 16px; }
-
-th.large-4 center {
-  min-width: 152px; }
 
 th.large-6 {
   width: 284px;
@@ -153,17 +136,6 @@ th.large-9 {
 
 th.large-9.first {
   padding-left: 16px; }
-
-th.large-9.last {
-  padding-right: 16px; }
-
-th.large-10 {
-  width: 484px;
-  padding-left: 8px;
-  padding-right: 8px; }
-
-th.large-10.last {
-  padding-right: 16px; }
 
 th.large-12 {
   width: 584px;
@@ -211,12 +183,6 @@ img.float-right {
   float: right;
   text-align: right; }
 
-img.float-center {
-  margin: 0 auto;
-  Margin: 0 auto;
-  float: none;
-  text-align: center; }
-
 table.float-center {
   margin: 0 auto;
   Margin: 0 auto;
@@ -225,10 +191,8 @@ table.float-center {
 
 body,
 table.body,
-h1,
 h2,
 h3,
-h4,
 p,
 td,
 th,
@@ -242,10 +206,8 @@ a {
   text-align: left;
   line-height: 1.4; }
 
-h1,
 h2,
-h3,
-h4 {
+h3 {
   color: inherit;
   word-wrap: normal;
   font-family: Helvetica, Arial, sans-serif;
@@ -253,17 +215,11 @@ h4 {
   margin-bottom: 20px;
   Margin-bottom: 20px; }
 
-h1 {
-  font-size: 34px; }
-
 h2 {
   font-size: 30px; }
 
 h3 {
   font-size: 28px; }
-
-h4 {
-  font-size: 24px; }
 
 body,
 table.body,
@@ -324,19 +280,8 @@ table.button {
 
 table.button:hover table tr td a,
 table.button:active table tr td a,
-table.button table tr td a:visited,
-table.button.tiny:hover table tr td a,
-table.button.tiny:active table tr td a,
-table.button.tiny table tr td a:visited {
+table.button table tr td a:visited {
   color: #fefefe; }
-
-table.button.tiny table td,
-table.button.tiny table a {
-  padding: 4px 8px 4px 8px; }
-
-table.button.tiny table a {
-  font-size: 10px;
-  font-weight: normal; }
 
 table.button:hover table td,
 table.button:visited table td,
@@ -374,11 +319,6 @@ table.button:active table a {
 .sidebar {
   background: #4a4f55; }
 
-h1 {
-  color: #6184c3;
-  line-height: 1.2em;
-  margin-bottom: .5em; }
-
 .sidebar h2 {
   color: #ffffff;
   text-align: center; }
@@ -389,17 +329,8 @@ h1 {
   font-weight: bold;
   font-size: 16px; }
 
-.sidebar p {
-  text-align: center;
-  color: #ffffff; }
-
 .sidebar table.button table td a {
   padding: 5px 10px; }
-
-.sidebar a.maplink {
-  color: #ffffff;
-  text-decoration: underline;
-  font-size: 12px; }
 
 .presenter {
   background: #6184c3; }
@@ -413,17 +344,6 @@ h1 {
 
 .presenter th.columns {
   padding-bottom: 0; }
-
-.summary h3 {
-  color: #6184c3;
-  font-size: 18px; }
-
-.summary li {
-  margin-bottom: 10px; }
-
-.webinar-details h2 {
-  font-size: 24px;
-  margin-bottom: 10px; }
 
 p.view-online {
   background: #f3f3f3;
@@ -474,9 +394,6 @@ table.button table td a {
   color: #000000;
   font-weight: normal; }
 
-.signature img {
-  max-width: 200px; }
-
 .social-media {
   background: #f3f3f3; }
 
@@ -509,56 +426,6 @@ h2 {
 h3 {
   font-size: 16px;
   font-weight: bold; }
-
-table.product-table {
-  border-width: 2px;
-  border-style: solid; }
-
-.product-header {
-  text-align: center; }
-
-.product-header h2 {
-  text-align: center;
-  font-size: 18px;
-  line-height: 24px;
-  color: #ffffff; }
-
-.product-content {
-  text-align: center; }
-
-.literacy {
-  border-color: #ffbf3d; }
-
-h4 {
-  font-size: 18px; }
-
-.product-table.literacy .product-header {
-  background: #ffbf3d; }
-
-.math {
-  border-color: #76bd22; }
-
-.product-table.math .product-header {
-  background: #76bd22; }
-
-.pd {
-  border-color: #ff6d10; }
-
-.product-table.pd .product-header {
-  background: #ff6d10; }
-
-.product-content p {
-  font-size: 14px; }
-
-.headline {
-  background: #005587; }
-
-.headline h1 {
-  text-align: center;
-  color: #ffffff;
-  font-size: 24px;
-  margin: 0;
-  padding: 0; }
 
 sup {
   font-size: 12px;
